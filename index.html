@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey form</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <div class="section">
+        <h2>Survey form</h2>
+        <div class="container">
+            <h1>ACQUIOS</h1>
+            <form>
+                <div class="display">
+                    <div>
+                        <label for="firstname">FirstName</label><br>
+                        <input type="text" id="fname" name="fname" required>
+                    </div>
+                    <div class="lname">
+                        <label for="lastname">LastName</label><br>
+                        <input type="text" id="lname" name="lname" required>
+                    </div>
+                </div>
+                <label type="email">Email Address</label><br>
+                <input class="mail" type="email" id="mail" name="mail" required><br>
+                <label>How was your overall experience?</label><br>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i><br>
+                <label>Was our requirements(check all that apply):</label><br>
+            <div class="display">
+                <div class="optionleft">
+                    <input class="box" type="button" id="option" name="option">
+                    <label class="option">Professional and courteous?</label><br>
+                    <input class="box" type="button" id="option" name="option">
+                    <label class="option">Knowledgeable?</label><br>
+                    <input class="box" type="button" id="option" name="option">
+                    <label class="option">Friendly?</label><br>
+                    <input class="box" type="button" id="option" name="option">
+                    <label class="option">Efficient?</label><br>
+                </div>
+                <div>
+                    <input class="box" type="button" id="option" name="option">
+                    <label class="option">Patient?</label><br>
+                    <input class="box" type="button" id="option" name="option">
+                    <label class="option">Warm and respectful?</label><br>
+                    <input class="box" type="button" id="option" name="option">
+                    <label class="option">Clear and direct?</label><br>
+                </div>
+            </div>
+                <button type="submit">Submit Feedback</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
